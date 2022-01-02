@@ -1,0 +1,249 @@
+
+@media (min-width:1050px) {
+    .text-content-down{
+        display: none;
+    }
+
+}
+
+@media (min-width:740px) and (max-width: 1049px) {
+
+    .bikes {
+        --columns: 2;
+    }
+
+
+    .text-content{
+        display: none;
+    }
+    .text-content-down{
+        display: block;
+    }
+
+    .top-text, .mid-text, .bot-text{
+        margin: 0 0 20px 0;
+    }
+
+    .bot-text a button{
+        transform: translateY(0%);
+        margin-top: 0;
+    }
+
+    .news1 .news1__text {
+        flex: 0.4;
+        margin-left: 0%;
+        margin-right: 2
+        0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .news-text-content .text__top {
+        font-weight: 600;
+        color: rgb(146, 52, 52);
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .news-text-content .text__mid {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .news-text-content .text__bot {
+        font-size: 16px;
+    }
+
+    .read-more {
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(255, 115, 0);
+        width: 50%;
+        text-align: center;
+        padding: 16px 0;
+        font-weight: 550;
+        font-size: 18px;
+    }
+
+    .news2 .news2__text {
+        flex: 0.3;
+        margin-right: 0%;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:739px) {
+
+    .bikes {
+        --columns: 1;
+    }
+
+    .bike {
+        background-color: #fff;
+    }
+
+    .text-content{
+        display: none;
+    }
+    .text-content-down{
+        display: block;
+    }
+
+    .top-text, .mid-text, .bot-text{
+        margin: 0 0 20px 0;
+    }
+
+    .bot-text a button{
+        transform: translateY(0%);
+        margin-top: 0;
+    }
+
+    .content__news .news1, .content__news .news2 {
+        display: block;
+    }
+
+    .news1 .news1__text {
+        flex: 1;
+        margin-left: 0%;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .news-text-content .text__top {
+        font-weight: 600;
+        color: rgb(146, 52, 52);
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .news-text-content .text__mid {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .news-text-content .text__bot {
+        font-size: 16px;
+    }
+
+    .news1__pic {
+        flex: 0.6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .read-more {
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(255, 115, 0);
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-weight: 550;
+        font-size: 18px;
+    }
+    
+    .news2 .news2__text {
+        flex: 0.3;
+        margin-right: 0%;
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-buy {
+        --spacing: 20px;
+        --columns: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        margin: 20px 20px 20px 0px;
+    }
+
+    .footer__mid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: -20px;
+    }
+
+    .footer__mid > div {
+        margin-bottom: 20px;
+    }
+
+    
+    .footer__mid > div {
+        margin-left: 20px;
+    }
+
+    .footer__bot-top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+
+    .social-media a {
+        margin: 0 20px 0 0;
+        text-decoration: none;
+        
+    }
+
+    .button-medium {
+        padding: 10px;
+    }
+    
+    #nav > ul {
+        position: absolute;
+    }
+
+    #nav > ul > li {
+        position: relative;
+        float: right;
+        background-color: #ccc;
+    }
+
+    #nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    
+
+    #header {
+        /* height: 50px; */
+        overflow: hidden;
+        /* text-align: right; */
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    .ti-menu {
+        font-size: 30px;
+        padding: 10px 20px;
+        float: right;
+    }
+
+    .ti-menu:active {
+        color: white;
+        background-color:#000 ;
+    }
+}
